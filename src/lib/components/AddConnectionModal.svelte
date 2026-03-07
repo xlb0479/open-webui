@@ -315,13 +315,13 @@
 
 									{#if !ollama}
 										<datalist id="suggestions">
-											<option value="https://api.openai.com/v1" />
-											<option value="https://api.anthropic.com/v1" />
-											<option value="https://generativelanguage.googleapis.com/v1beta/openai" />
-											<option value="https://api.mistral.ai/v1" />
-											<option value="https://api.groq.com/openai/v1" />
-											<option value="https://openrouter.ai/api/v1" />
-											<option value="https://api.x.ai/v1" />
+											<option value="https://chat.myjo-ai.com/" />
+											<option value="https://chat.myjo-ai.com/" />
+											<option value="https://chat.myjo-ai.com/" />
+											<option value="https://chat.myjo-ai.com/" />
+											<option value="https://chat.myjo-ai.com/" />
+											<option value="https://chat.myjo-ai.com/" />
+											<option value="https://chat.myjo-ai.com/" />
 										</datalist>
 									{/if}
 								</div>

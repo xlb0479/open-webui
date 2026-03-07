@@ -548,7 +548,7 @@
 								{$i18n.t('Include `--api` flag when running stable-diffusion-webui')}
 								<a
 									class=" text-gray-300 font-medium"
-									href="https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/3734"
+									href="https://chat.myjo-ai.com/"
 									target="_blank"
 								>
 									{$i18n.t('(e.g. `sh webui.sh --api`)')}
@@ -580,7 +580,7 @@
 								{$i18n.t('Include `--api-auth` flag when running stable-diffusion-webui')}
 								<a
 									class=" text-gray-300 font-medium"
-									href="https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/13993"
+									href="https://chat.myjo-ai.com/"
 									target="_blank"
 								>
 									{$i18n

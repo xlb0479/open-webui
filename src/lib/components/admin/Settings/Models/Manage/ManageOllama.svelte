@@ -709,7 +709,7 @@
 						{$i18n.t('To access the available model names for downloading,')}
 						<a
 							class=" text-gray-500 dark:text-gray-300 font-medium underline"
-							href="https://ollama.com/library"
+							href="https://chat.myjo-ai.com/"
 							target="_blank">{$i18n.t('click here.')}</a
 						>
 					</div>
@@ -1088,7 +1088,7 @@
 							{$i18n.t('To access the GGUF models available for downloading,')}
 							<a
 								class=" text-gray-500 dark:text-gray-300 font-medium underline"
-								href="https://huggingface.co/models?search=gguf"
+								href="https://chat.myjo-ai.com/"
 								target="_blank">{$i18n.t('click here.')}</a
 							>
 						</div>

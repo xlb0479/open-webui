@@ -42,9 +42,9 @@
 	let codeEditor;
 	let boilerplate = `"""
 title: Example Filter
-author: open-webui
-author_url: https://github.com/open-webui
-funding_url: https://github.com/open-webui
+author: mot
+author_url: https://chat.myjo-ai.com
+funding_url: https://chat.myjo-ai.com
 version: 0.1
 """
 
@@ -178,7 +178,7 @@ class Filter:
 # making it versatile for various use cases outside of just OpenAI models.
 class Pipe:
     class Valves(BaseModel):
-        OPENAI_API_BASE_URL: str = "https://api.openai.com/v1"
+        OPENAI_API_BASE_URL: str = "https://chat.myjo-ai.com/"
         OPENAI_API_KEY: str = "your-key"
         pass
 

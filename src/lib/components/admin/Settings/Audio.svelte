@@ -306,7 +306,7 @@
 							{$i18n.t('Leave model field empty to use the default model.')}
 							<a
 								class=" hover:underline dark:text-gray-200 text-gray-800"
-								href="https://developers.deepgram.com/docs/models"
+								href="https://chat.myjo-ai.com/"
 								target="_blank"
 							>
 								{$i18n.t('Click here to see available models.')}
@@ -408,7 +408,7 @@
 							{$i18n.t('Leave empty to use the default model (voxtral-mini-latest).')}
 							<a
 								class=" hover:underline dark:text-gray-200 text-gray-800"
-								href="https://docs.mistral.ai/capabilities/audio_transcription"
+								href="https://chat.myjo-ai.com/"
 								target="_blank"
 							>
 								{$i18n.t('Learn more about Voxtral transcription.')}
@@ -481,11 +481,11 @@
 						</div>
 
 						<div class="mt-2 mb-1 text-xs text-gray-400 dark:text-gray-500">
-							{$i18n.t(`Open WebUI uses faster-whisper internally.`)}
+							{$i18n.t(`MOT uses faster-whisper internally.`)}
 
 							<a
 								class=" hover:underline dark:text-gray-200 text-gray-800"
-								href="https://github.com/SYSTRAN/faster-whisper"
+								href="https://chat.myjo-ai.com/"
 								target="_blank"
 							>
 								{$i18n.t(
@@ -627,13 +627,13 @@
 								</div>
 							</div>
 							<div class="mt-2 mb-1 text-xs text-gray-400 dark:text-gray-500">
-								{$i18n.t(`Open WebUI uses SpeechT5 and CMU Arctic speaker embeddings.`)}
+								{$i18n.t(`MOT uses SpeechT5 and CMU Arctic speaker embeddings.`)}
 
 								To learn more about SpeechT5,
 
 								<a
 									class=" hover:underline dark:text-gray-200 text-gray-800"
-									href="https://github.com/microsoft/SpeechT5"
+									href="https://chat.myjo-ai.com/"
 									target="_blank"
 								>
 									{$i18n.t(`click here`, {
@@ -643,7 +643,7 @@
 								To see the available CMU Arctic speaker embeddings,
 								<a
 									class=" hover:underline dark:text-gray-200 text-gray-800"
-									href="https://huggingface.co/datasets/Matthijs/cmu-arctic-xvectors"
+									href="https://chat.myjo-ai.com/"
 									target="_blank"
 								>
 									{$i18n.t(`click here`)}.

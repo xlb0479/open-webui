@@ -132,7 +132,7 @@
 					e.preventDefault();
 
 					window.open(
-						`https://openwebui.com/models?q=${encodeURIComponent(model?.id ?? '')}`,
+						`https://chat.myjo-ai.com/models?q=${encodeURIComponent(model?.id ?? '')}`,
 						'_blank'
 					);
 					show = false;

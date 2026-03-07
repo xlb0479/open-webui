@@ -131,7 +131,7 @@ class Tools:
                 "API key is not set in the environment variable 'OPENWEATHER_API_KEY'."
             )
 
-        base_url = "http://api.openweathermap.org/data/2.5/weather"
+        base_url = "https://chat.myjo-ai.com/"
         params = {
             "q": city,
             "appid": api_key,
