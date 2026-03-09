@@ -32,12 +32,12 @@ ARG BUILD_HASH
 
 WORKDIR /app
 
-ENV HTTP_PROXY=http://10.0.0.154.7890
-ENV HTTPS_PROXY=http://10.0.0.154.7890
-ENV http_proxy=http://10.0.0.154.7890
-ENV https_proxy=http://10.0.0.154.7890
-ENV ALL_PROXY=http://10.0.0.154.7890
-ENV all_proxy=http://10.0.0.154.7890
+ENV HTTP_PROXY=http://172.19.144.1:7890
+ENV HTTPS_PROXY=http://172.19.144.1:7890
+ENV http_proxy=http://172.19.144.1:7890
+ENV https_proxy=http://172.19.144.1:7890
+ENV ALL_PROXY=http://172.19.144.1:7890
+ENV all_proxy=http://172.19.144.1:7890
 # to store git revision in build
 RUN apk add --no-cache git
 
@@ -63,12 +63,12 @@ ARG USE_AUXILIARY_EMBEDDING_MODEL
 ARG UID
 ARG GID
 
-ENV HTTP_PROXY=http://10.0.0.154.7890
-ENV HTTPS_PROXY=http://10.0.0.154.7890
-ENV http_proxy=http://10.0.0.154.7890
-ENV https_proxy=http://10.0.0.154.7890
-ENV ALL_PROXY=http://10.0.0.154.7890
-ENV all_proxy=http://10.0.0.154.7890
+ENV HTTP_PROXY=http://172.19.144.1:7890
+ENV HTTPS_PROXY=http://172.19.144.1:7890
+ENV http_proxy=http://172.19.144.1:7890
+ENV https_proxy=http://172.19.144.1:7890
+ENV ALL_PROXY=http://172.19.144.1:7890
+ENV all_proxy=http://172.19.144.1:7890
 
 # Python settings
 ENV PYTHONUNBUFFERED=1
