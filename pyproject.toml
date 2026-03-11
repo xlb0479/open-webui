@@ -117,9 +117,7 @@ dependencies = [
     "azure-identity==1.25.1",
     "azure-storage-blob==12.28.0",
 
-    "ldap3==2.9.1",
-    "fastmcp>=3.0.0",
-    "dashscope==1.25.5",
+    "ldap3==2.9.1"
 ]
 readme = "README.md"
 requires-python = ">= 3.11, < 3.13.0a1"
