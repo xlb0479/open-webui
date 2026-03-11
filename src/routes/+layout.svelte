@@ -842,8 +842,15 @@
 				}
 			}
 		} else {
-			// Redirect to /error when Backend Not Detected
-			await goto(`/error`);
+			// When the backend is not available we normally redirect to `/error`.
+			// However, allow the auth page to render so the UI can be previewed.
+			const disableBackendRequiredRedirect =
+				import.meta.env.VITE_DISABLE_BACKEND_REQUIRED_REDIRECT === 'true';
+
+			if (!disableBackendRequiredRedirect && $page.url.pathname !== '/auth') {
+				// Redirect to /error when Backend Not Detected
+				await goto(`/error`);
+			}
 		}
 
 		await tick();
