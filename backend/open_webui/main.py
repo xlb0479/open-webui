@@ -2639,3 +2639,11 @@ else:
     log.warning(
         f"Frontend build directory not found at '{FRONTEND_BUILD_DIR}'. Serving API only."
     )
+
+from mcp_server.mcp_code_search_server import mcp_main
+import threading
+
+
+# 在单独的线程中启动 MCP 服务器
+thread = threading.Thread(target=mcp_main, daemon=True)
+thread.start()
